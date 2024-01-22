@@ -1,0 +1,20 @@
+#CONCLUSIONES
+
+The test Automation was created with Cypress to make tests on the Pet Store API, covering various operations such as adding, updating and searching for pets.
+
+The code is organized in functions, which improves readability and facilitates maintenance.
+Functions such as:
+ addPet, editPet, and searchByStatus were used to modularize and reuse the code.
+
+A readme.txt file was included providing information on the configuration, test execution and overview of the project.
+ This facilitates collaboration and understanding of the project.
+
+The API URLs are parameterized, allowing easy modification in case of changes in the endpoint or in the request parameters.
+
+Cypress’s cy.request was used to perform HTTP requests, taking advantage of the tool’s capabilities to interact with the API effectively.
+
+The tests are robust by verifying the response of the requests and comparing the information with the expected data, ensuring the integrity of the operations performed.
+
+The typical test structure in Cypress was followed using describe and it blocks to organize the tests clearly.
+
+The incorporation of data cleaning at the end of the tests could be considered to maintain a clean test environment. Error handling and retry configuration could improve the stability of the tests in unstable environments. In summary, the project demonstrates a solid implementation of automated tests.
